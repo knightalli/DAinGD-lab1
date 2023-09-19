@@ -7,9 +7,9 @@
 
 | Задание | Выполнение | Баллы |
 | ------ | ------ | ------ |
-| Задание 1 | # | 60 |
-| Задание 2 | # | 20 |
-| Задание 3 | # | 20 |
+| Задание 1 | * | 60 |
+| Задание 2 | * | 20 |
+| Задание 3 | * | 20 |
 
 знак "*" - задание выполнено; знак "#" - задание не выполнено;
 
@@ -41,7 +41,7 @@
 ## Задание 1
 ### Написать программу Hello World на Python с запуском в Jupiter Notebook.
 Ход работы:
-- Произвести подготовку данных для работы с алгоритмом линейной регрессии. 10 видов данных были установлены случайным образом, и данные находились в линейной зависимости. Данные преобразуются в формат массива, чтобы их можно было вычислить напрямую при использовании умножения и сложения.
+- Была установлена Anaconda, запущен Jupyter Notebook, создана отдельная папка с отдельный файлом, где написан код.
 
 ```py
 #Печатает надпись "Hello World"
@@ -52,9 +52,9 @@ print('Hello World')
 
 ## Задание 2
 ### Написать программу Hello World на C# с запуском на Unity. 
-
-- Перечисленные в этом туториале действия могут быть выполнены запуском на исполнение скрипт-файла, доступного [в репозитории](https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/ScreatingSphereInAEDT.py).
-- Для запуска скрипт-файла откройте Ansys Electronics Desktop. Перейдите во вкладку [Automation] - [Run Script] - [Выберите файл с именем ScreatingSphereInAEDT.py из репозитория].
+Ход работы:
+- Установлен Unity. Подключен к Visual Studio. Создан пустой объект и скрипт. Добавлен к объекту скрипт с кодом, приложенным ниже. 
+- Данный код выводит на консоль надпись "Hello World".
 
 ```cs
 
@@ -64,38 +64,19 @@ print('Hello World')
         print("Hello World");
     }
 ```
+![image](https://github.com/knightalli/DAinGD-lab1/assets/127225486/74175403-9a9a-43b2-9e54-289e2d0897b2)
+
 
 ## Задание 3
 ### Оформить отчет в виде документации на github (markdown-разметка).
-
-- Перечисленные в этом туториале действия могут быть выполнены запуском на исполнение скрипт-файла, доступного [в репозитории](https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/ScreatingSphereInAEDT.py).
-- Для запуска скрипт-файла откройте Ansys Electronics Desktop. Перейдите во вкладку [Automation] - [Run Script] - [Выберите файл с именем ScreatingSphereInAEDT.py из репозитория].
-
-```py
-
-import ScriptEnv
-ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
-oDesktop.RestoreWindow()
-oProject = oDesktop.NewProject()
-oProject.Rename("C:/Users/denisov.dv/Documents/Ansoft/SphereDIffraction.aedt", True)
-oProject.InsertDesign("HFSS", "HFSSDesign1", "HFSS Terminal Network", "")
-oDesign = oProject.SetActiveDesign("HFSSDesign1")
-oEditor = oDesign.SetActiveEditor("3D Modeler")
-oEditor.CreateSphere(
-	[
-		"NAME:SphereParameters",
-		"XCenter:="		, "0mm",
-		"YCenter:="		, "0mm",
-		"ZCenter:="		, "0mm",
-		"Radius:="		, "1.0770329614269mm"
-	], 
-)
-
-```
+Ход работы:
+- Создание репозитория с файлом README.md. Заполнение отчета. Отправка отчета в гугл-форму.
 
 ## Выводы
 
-Абзац умных слов о том, что было сделано и что было узнано.
+Я научилась пользоваться Jupyter'ом и Anacond'ой. Также попробовала себя в заполнении отчета в Github. 
+![image](https://github.com/knightalli/DAinGD-lab1/assets/127225486/e523c674-34fd-4aea-9fd7-88f575a08768)
+
 
 | Plugin | README |
 | ------ | ------ |
