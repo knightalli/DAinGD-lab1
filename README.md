@@ -71,6 +71,9 @@ print('Hello World')
 ### Оформить отчет в виде документации на github (markdown-разметка).
 Ход работы:
 - Создание репозитория с файлом README.md. Заполнение отчета. Отправка отчета в гугл-форму.
+  
+![image](https://github.com/knightalli/DAinGD-lab1/assets/127225486/56a94cfe-92dd-4c09-a66c-ee5f62057941)
+
 
 ## Выводы
 
